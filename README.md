@@ -1,5 +1,5 @@
 # Libft - 42Prague
-My very first own library.
+My very first own library :classical_building:
 
 
 ### **What is libft?**  
