@@ -20,30 +20,31 @@ There are 3 sections:
 
 Libc functions | Additional functions | Bonus Functions |
 :----------- | :-----------: | :-----------: | 
-memset		| ft_memalloc	| ft_lstnew		| 
-bzero		| ft_memdel		| ft_lstdelone	| 
-memcpy		| ft_strnew		| ft_lstdel		|   
-memccpy		| ft_strdel		| ft_lstadd		|   
-memmove		| ft_strclr		| ft_lstiter	|    
-memchr		| ft_striter	| ft_lstmap		|
-memcmp		| ft_striteri	|				|
-strlen		| ft_strmap		|				|
-strdup		| ft_strmapi	|				|
-strcpy		| ft_strequ		|				|
-strncpy		| ft_strnequ	|			|
-strcat		| ft_strsub		| |
-strlcat		| ft_strjoin	| |
-strchr		| ft_strtrim	| |
-strrchr		| ft_strsplit	| |
-strstr		| ft_itoa		| |
-strnstr		| ft_putchar	| |
-strcmp		| ft_putstr		| |
-strncmp		| ft_putendl	| |
-atoi		| ft_putnbr		| |
-isalpha		| ft_putchar_fd	| |
-isdigit		| ft_putstr_fd	| |
-isalnum		| ft_putendl_fd	| |
-isascii		| ft_putnbr_fd	| |
-isprint		|| |
+memset		|	ft_substr | ft_lstnew	| 
+bzero		  | ft_strjoin |  ft_lstadd_front	| 
+memcpy		|	ft_strtrim | ft_lstsize	|   
+memccpy		|	ft_split | ft_lstlast	|   
+memmove		| ft_itoa	| ft_lstadd_back |    
+memchr		| ft_strmapi | ft_lstdelone	|
+memcmp		| ft_striteri	|	ft_lstclear	|
+strlen		|	ft_putchar_fd |	ft_lstiter |
+strdup		| ft_putstr_fd	|	ft_lstmap |
+strcpy		| ft_putendl_fd	|	|
+strncpy		| ft_putnbr_fd	| |
+strcat		| | |
+strlcat		| | |
+strchr		| | |
+strrchr		| | |
+strstr		| | |
+strnstr		|	| |
+strcmp		|	| |
+strncmp		| | |
+atoi		  |	| |
+isalpha		|	| |
+isdigit		|	| |
+isalnum		|	| |
+isascii		|	| |
+isprint		| | |
 toupper		| | |
 tolower		| | |
+calloc     |
