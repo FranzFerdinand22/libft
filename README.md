@@ -12,8 +12,6 @@ The goal of the project is to have a deeper understanding of data structures, ba
 
 ### 📚 **What functions are in the library?**
 
-There are 3 sections:
-
 1.  **Libc Functions:** Some of the standard C functions.
 2.  **Additional functions:** Functions that are not in the libc, or that are part of it but in a different form.
 3.  **Bonus Functions:** Functions useful for linked list manipulation.
